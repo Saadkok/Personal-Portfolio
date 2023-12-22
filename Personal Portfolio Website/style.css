@@ -1,0 +1,174 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Added a background color */
+    color: #333; /* Set the default text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container p {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+header {
+    background-color: #008080; /* Update header background color */
+    color: #ffffff; /* Header text color */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px; /* Slightly reduce font size */
+    font-weight: bold;
+}
+
+nav ul li a {
+    margin-top: 10px;
+    list-style: none;
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    font-weight: bold;
+    color: #ffffff;
+}
+
+header {
+    background-color: lightblue;
+    color: #008080;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1  {
+    font-size: 56px;
+    color: azure;
+    
+}
+#M{
+    color: #029ED1;
+    font-size: 60px;
+    font: bold;
+    padding: 20px;
+}
+
+nav ul li a {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    color: rgb(240, 251, 255);
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    margin: 40px 0;
+}
+
+.project {
+    margin: 20px;
+}
+
+.project b {
+    margin: 20px;
+    font-size: medium;
+}
+
+.project p {
+    margin: 20px;
+}
+
+.c {
+    margin: 20px;
+}
+
+.s {
+    width: 50%;
+    background-color: lightgreen;
+    color: rgb(230, 249, 230);
+    font-style: italic;
+    font-size: 24px;
+    height: 500px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s img {
+    border: 4px solid #008080;
+    border-radius: 50%; /* Make the image round */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+/* Add a hover effect to scale the image slightly on hover */
+.s img:hover {
+    transform: scale(1.1);
+}
+
+.s h1 {
+    text-align: center;
+    font-style: italic;
+    color: #008080; /* Text color for h1 in 's' div */
+}
+
+.s h3 {
+    margin-top: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Added styles for different sections and elements */
+.section-title {
+    font-size: 28px;
+    color: #008080;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.accent-text {
+    color: #008080;
+}
+
+.highlight-text {
+    color: #333;
+    font-size: 18px;
+}
+
+.linkedin-link {
+    color: #008080;
+}
+
+.footer-text {
+    color: #fff;
+}
